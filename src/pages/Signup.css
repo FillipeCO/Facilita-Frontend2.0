@@ -1,0 +1,159 @@
+body {
+    color: white;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    gap : 30px;
+}
+
+.checkbox label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox b {
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+#form {
+    width: 300px;
+    padding: 20px;
+    background-color: Gray/01;
+    border-radius: 4px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nome {
+    width: 343px;
+height: 50px;
+flex-shrink: 0;
+background-color: #F6F6F6;
+border: 2px solid #E8E8E8;
+border-radius: 10px;
+margin-bottom: 16px;
+}
+
+
+input[type="email"] {
+    width: 343px;
+height: 50px;
+flex-shrink: 0;
+background-color: #F6F6F6;
+border: 2px solid #E8E8E8;
+border-radius: 10px;
+margin-bottom: 16px;
+}
+
+input[type="password"] {
+    width: 343px;
+height: 50px;
+flex-shrink: 0;
+background-color: #F6F6F6;
+border: 2px solid #E8E8E8;
+border-radius: 10px;
+margin-bottom: 16px;
+}
+
+.telefone {
+    width: 343px;
+height: 50px;
+flex-shrink: 0;
+background-color: #F6F6F6;
+border: 2px solid #E8E8E8;
+border-radius: 10px;
+margin-bottom: 16px;
+}
+
+input[type="radio"] + label {
+    font-size: 20px;
+    color: black;
+}
+
+input[type="radio"][name="isNotOrganizer"] {
+    margin-bottom : 16px;
+}
+
+.isOrganizer {
+color: black;
+margin-bottom: 16px;
+}
+
+h3 {
+    color: black;
+    margin-bottom: 16px;
+}
+
+h5 {
+    color: black;
+    margin-bottom: 16px;
+}
+
+.cpf_cnpj {
+    width: 343px;
+height: 50px;
+flex-shrink: 0;
+background-color: #F6F6F6;
+border: 2px solid #E8E8E8;
+border-radius: 10px;
+margin-bottom: 16px;
+}
+
+.form h1 {
+    color: #0f2027;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.form p {
+    color: #0f2027;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    background-color: #52ADDF;
+    border: none;
+    border-radius: 100px;
+}
+
+.form button:hover {
+    background-color: #188ece;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#form h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+

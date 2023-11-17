@@ -1,0 +1,64 @@
+
+.FooterCard {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 69px;
+    box-shadow: 0 -1px 3px 0 rgba(0, 0, 0, 0.2),
+      0 -2px 1px -1px rgba(0, 0, 0, 0.12), 0 -1px 1px 0 rgba(0, 0, 0, 0.14);
+    background-color: #52ADDF;
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-around;
+  }
+  
+   .Item1 {
+    width: 120px;
+    height: 49px;
+    padding: 11px 46px 11px 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Item2 {
+    width: 120px;
+    height: 49px;
+    padding: 10px 46px 10px 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Item3 {
+    width: 120px;
+    height: 49px;
+    padding: 10px 46px 9px 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .HomepageIcon {
+    width: 27px;
+    height: 27px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  }
+  .ShoppingCartIcon {
+    width: 27px;
+    height: 29px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .AvatarIcon {
+    width: 27px;
+    height: 30px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  }
