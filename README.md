@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Como rodar o projeto:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## No diretório raiz do projeto, rodar os seguintes comandos:
+## npm install
+## npm run start
 
-## Available Scripts
+# Guia de páginas:
 
-In the project directory, you can run:
+- Login (Login.js no código): valida as informações e redireciona para a página Home.
+- Cadastro (Signup.js no código): cadastra o usuário e redireciona para a página de login.
 
-### `npm start`
+## PARTICIPANTE
+- Home (Home.js no código): Pagina para visualizar todos os eventos e ser direcionado para os detalhes do evento.
+- Detalhes do evento (Eventdetails.js no código): Página para visualizar os detalhes do evento e se inscrever nele, com redirecionamento para a página de eventos inscritos.
+- Eventos (Events.js no código): Página para a visualização de eventos inscritos, ver os detalhes e função para cancelar a inscrição neles.
+- Perfil (Perfil.js no código): Vizualização de informações do seu perfil e edição deles.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## PROMOTOR
+- Home (Home.js no código): Pagina para criação de novos eventos.
+- Eventos (Events.js no código): Página para a visualização de eventos criados, ver os detalhes e função para deletá-los e editá-los.
+- Detalhes do evento (Eventdetails.js no código): Página para visualizar os detalhes do evento e se inscrever nele, com redirecionamento para a página de eventos inscritos.
+- Edição de eventos (Eventedit.js no código): Página para editar as informações dos eventos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Prints:
+![image](https://github.com/FillipeCO/Facilita-Frontend2.0/assets/87552890/d908a5e0-a51e-4833-a67d-671ef2f27b6e)
 
-### `npm test`
+![image](https://github.com/FillipeCO/Facilita-Frontend2.0/assets/87552890/1ac67e8e-813f-4233-bfdf-0496cb7b6460)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/FillipeCO/Facilita-Frontend2.0/assets/87552890/83741e2d-cb38-4430-84fe-13285c34418c)
 
-### `npm run build`
+![image](https://github.com/FillipeCO/Facilita-Frontend2.0/assets/87552890/7f98e193-9605-4556-bdc2-91f1557bcc8a)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
