@@ -81,9 +81,9 @@ const Home = () => {
   return (
     <div>
       {user && user.isOrganizer ? (
-        <div>
+        <div className="container">
           <h3>Cadastrar novo evento</h3>
-            <form class="form" onSubmit={handleSubmit}>
+            <form class="formRegisterEvent" onSubmit={handleSubmit}>
                 <div className="input-control">
                 <input
                     className="event_name"
@@ -128,9 +128,9 @@ const Home = () => {
             </form>
         </div>
       ) : (
-        <>
+        <div className="homeAllEventsContainer">
           <h3>Todos os eventos</h3>
-          <input
+          <input className="searchBarInput"
             type="search"
             placeholder="Digite para pesquisar..."
             value={searchTerm}
@@ -142,15 +142,15 @@ const Home = () => {
             )
             .map((event) => (
               <ul className="eventCard" key={event._id}>
-                <li>
+                <li className="eventCardList">
                   <h3>{event.event_name}</h3>
-                  <h5>
+                  <button className="eventDetailsButton">
                     <Link to={`/eventdetails/${event._id}`}>Ver detalhes</Link>
-                  </h5>
+                  </button>
                 </li>
               </ul>
             ))}
-        </>
+        </div>
       )}
       <Footer />
     </div>

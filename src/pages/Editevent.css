@@ -1,4 +1,8 @@
 .eventCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -6,3 +10,40 @@
     background-color: #fff;
     box-shadow: 0 0 5px #ccc;
   }
+
+.perfilForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventDetailList {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    
+  }
+}
+
+.editEventButton {
+  padding: 10px;
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    background-color: #52ADDF;
+    border: none;
+    border-radius: 100px;
+}
+
+.editEventForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

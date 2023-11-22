@@ -37,40 +37,40 @@ const Perfil = () => {
   };
 
   return (
-    <div>
+    <div className="perfilContainer">
       <h3>Olá, {user.name}!</h3>
       <h3>Meus dados:</h3>
       <ul className="eventCard">
-        <li key={user._id}>
+        <li className="perfilForm" key={user._id}>
           <h3>Nome</h3>
-          <input
+          <input className="perfilFormInput"
             type="text"
             name="name"
             value={editedUser.name}
             onChange={handleInputChange}
           />
           <h3>Email</h3>
-          <input
+          <input className="perfilFormInput"
             type="text"
             name="email"
             value={editedUser.email}
             onChange={handleInputChange}
           />
           <h3>Telefone</h3>
-          <input
+          <input className="perfilFormInput"
             type="text"
             name="cellphone"
             value={editedUser.cellphone}
             onChange={handleInputChange}
           />
           <h3>CPF/CNPJ</h3>
-          <input
+          <input className="perfilFormInput"
             type="text"
             name="cpf_cnpj"
             value={editedUser.cpf_cnpj}
             onChange={handleInputChange}
           />
-          <button onClick={handleSaveChanges}>Salvar alterações</button>
+          <button className="perfilFormButton" onClick={handleSaveChanges}>Salvar alterações</button>
         </li>
       </ul>
       <Footer />

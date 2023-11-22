@@ -87,23 +87,26 @@ border-radius: 10px;
 margin-bottom: 16px;
 }
 
-input[type="radio"] + label {
+/* input[type="radio"] + label {
     font-size: 20px;
     color: black;
-}
+} */
 
-input[type="radio"][name="isNotOrganizer"] {
+/* input[type="radio"][name="isNotOrganizer"] {
     margin-bottom : 16px;
-}
+} */
 
-.isOrganizer {
+/* .isOrganizer {
 color: black;
 margin-bottom: 16px;
-}
+} */
 
 h3 {
     color: black;
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h5 {
@@ -157,3 +160,59 @@ margin-bottom: 16px;
     margin-top: 50px;
 }
 
+.perfilContainer {
+    display: flex;
+  
+    flex-direction: column;
+  
+    justify-content: center;
+  
+    align-items: center;
+  }
+
+  .deleteEventButton {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        padding: 10px;
+        margin: 20px;
+        width: 220px;
+        height: 40px;
+        color: white;
+        background-color: #df6352;
+        border: none;
+        cursor: pointer;
+  }
+
+  .eventDetailsButton {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 20px;
+    color: white;
+    background-color: #73df52;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  .eventEditButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    width:200px;
+    height: 20px;
+    color: white;
+    background-color: #52b7df;
+    border: none;
+  }

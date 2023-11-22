@@ -6,3 +6,29 @@
     background-color: #fff;
     box-shadow: 0 0 5px #ccc;
   }
+
+.perfilContainer {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.perfilFormNameInput {
+  width: 343px;
+
+  height: 50px;
+
+  flex-shrink: 0;
+
+  background-color: #f6f6f6;
+
+  border: 2px solid #e8e8e8;
+
+  border-radius: 10px;
+
+  margin-bottom: 16px;
+}

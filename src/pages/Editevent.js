@@ -45,7 +45,7 @@ const Editevent = () => {
         <div>
             <h3>Editar evento:</h3>
             <ul className="eventCard">
-                <li key={event._id}>
+                <li className="editEventForm" key={event._id}>
                     <h3>Nome do evento</h3>
                     <input type="text" name="event_name" value={editedEvent.event_name} onChange={handleInputChange} />
                     <h3>Numero de participantes</h3>
@@ -54,7 +54,7 @@ const Editevent = () => {
                     <input type="text" name="company_name" value={editedEvent.company_name} onChange={handleInputChange} />
                     <h3>Descrição do evento</h3>
                     <input type="text" name="event_details" value={editedEvent.event_details} onChange={handleInputChange} />
-                    <button onClick={handleSaveChanges}>Salvar alterações</button>
+                    <button className="editEventButton" onClick={handleSaveChanges}>Salvar alterações</button>
                 </li>
             </ul>
             <Footer />

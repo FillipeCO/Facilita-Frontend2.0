@@ -6,3 +6,23 @@
     background-color: #fff;
     box-shadow: 0 0 5px #ccc;
   }
+
+.subscribeButton {
+  padding: 10px;
+  margin-top: 10px;
+  width: 350px;
+  height: 50px;
+  color: white;
+  background-color: #52addf;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.eventDetailsContainer h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}

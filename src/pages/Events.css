@@ -1,8 +1,120 @@
-.eventCard {
-    margin: 10px;
+
+.container {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  /* height: 100vh; */
+
+  background-color: white;
+
+}
+
+
+
+/* input {
+
+  width: 343px;
+
+  height: 50px;
+
+  flex-shrink: 0;
+
+  background-color: #f6f6f6;
+
+  border: 2px solid #e8e8e8;
+
+  border-radius: 10px;
+
+  margin-bottom: 16px;
+
+} */
+
+
+
+.eventContainer {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.eventsOrganizerContainer {
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    padding-bottom: 100px;
+}
+
+.perfilFormButton {
+  padding: 10px;
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    background-color: #52ADDF;
+    border: none;
+    border-radius: 100px;
+}
+
+.cancelSubscriptionButton {
+  display: flex;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 5px #ccc;
-  }
+    margin: 20px;
+    width: 200px;
+    height: 20px;
+    color: white;
+    background-color: #df6752;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.perfilFormInput {
+  width: 343px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #f6f6f6;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.searchBarInput {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 343px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #f6f6f6;
+  border: 2px solid #e8e8e8;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.eventsParticipantContainer {
+  display: flex;
+  flex-direction: column;
+}

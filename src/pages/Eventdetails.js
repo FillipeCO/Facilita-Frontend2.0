@@ -51,19 +51,21 @@ const Eventdetails = () => {
     }
 
     return (
-        <div>
-            <h3>Olá, {user.name}!</h3>
-            <h3>Detalhes do evento:</h3>
+        <div className='eventDetailsPage'>
+        <div className='eventDetailsContainer'>
+            <h2>Olá, {user.name}!</h2>
+            <h2>Detalhes do evento:</h2>
             <ul className="eventCard">
-                <li key={event._id}>
-                    <h3>{event.event_name}</h3>
-                    <h5>{event.number_of_participants}</h5>
-                    <h3>{event.company_name}</h3>
-                    <h5>{event.event_details}</h5>
-                    <button onClick={handleSubscribe}>Inscrever-se</button>
+                <li className='eventDetailList' key={event._id}>
+                    <h3>Nome do evento: {event.event_name}</h3>
+                    <h3>Quantidade de participantes: {event.number_of_participants}</h3>
+                    <h3>Empresa organizadora: {event.company_name}</h3>
+                    <h3>Detalhes do evento: {event.event_details}</h3>
+                    <button className='subscribeButton' onClick={handleSubscribe}>Inscrever-se</button>
                 </li>
             </ul>
             <Footer />
+        </div>
         </div>
     );
 }
